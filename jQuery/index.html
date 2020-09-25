@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQuery Tutorial</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h1>jQuery Turorial</h1>
+  <p>By Edureka</p>
+  <!-- <ul>
+    <li>Golden Retriever </li>
+    <li>Syberian Huskey</li>
+    <li>Boxer</li>
+  </ul>
+  <input type="text" id="sometext" value="">
+  <button type="button" name="button">Submit</button> -->
+  <!-- <div class="cities">
+    <img id="one" src="cities/city1.jpg">
+    <img id="two" src="cities/city2.jpg">
+    <img id="three" src="cities/city3.jpg">
+  </div> -->
+  <!-- <button type="button" name="button">Try addClass()</button> -->
+  <!-- <input type="text" id="press" size="10"> -->
+  <!-- <button class="button" id="hide">Hide</button>
+  <button class="button" id="show">Show</button> -->
+
+  <!-- <button type="button" name="button">Namaste!</button>
+  <div class="fade">
+    <div id="one" style="width:2200; height:60px; display:none; background-color:orange;"></div><br>
+    <div id="two" style="width:2200; height:60px; display:none; background-color:white;"></div><br>
+    <div id="three" style="width:2200; height:60px; display:none; background-color:green;"></div><br>
+  </div> -->
+
+
+  <!-- <button type="button">Slide</button>
+  <div id="div1" style="width:90px; height:60px; display:none; background-color:pink"></div> -->
+
+  <!-- <div id="drag">
+    <p>Drag me around</p>
+  </div> -->
+
+  <!-- <img src="cities/city1.jpg" id="img1">
+  <div id="drop">
+    <p>My Home</p>
+  </div> -->
+
+
+  <input type="text" size="10" id="date">
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#date").datepicker();
+    })
+  </script>
+
+</body>
+
+
+<!-- <script type="text/javascript">
+  $(document).ready(function() {
+    $("button").click(function() {
+      $("#sometext").val("No, I don't want to \""+ $("#sometext").val() +"\"");
+    })
+  })
+</script> -->
+<!-- <script type="text/javascript">
+  $(document).ready(function() {
+    $("button").click(function() {
+      $("img").addClass("styleclass");
+    })
+  })
+</script> -->
+<!-- <script type="text/javascript">
+  $(document).ready(function() {
+    $("img").click(function() {
+      if (confirm("Do you want to hide")) {
+        $(this).hide();
+      }
+    })
+  })
+</script> -->
+
+<!-- <script type="text/javascript">
+  $(document).ready(function() {
+      $("input").on("keypress", function() {
+          $("p:last").hide();
+      });
+  });
+</script> -->
+
+<!-- <script type="text/javascript">
+  $(document).ready(function() {
+      $("#hide").click(function() {
+      $("img").hide();
+    });
+    $("#show").click(function() {
+      $("img").show();
+    });
+  });
+</script> -->
+
+
+<!-- <style>
+  .styleclass {
+    border: 5px solid green
+  }
+</style> -->
+
+<!-- <script type="text/javascript">
+  $(document).ready(function() {
+    $("button").click(function() {
+      $("#one").fadeIn();
+      $("#two").fadeIn("slow");
+      $("#three").fadeIn(3000);
+    });
+  });
+</script> -->
+
+<!-- <script type="text/javascript">
+  $(document).ready(function() {
+    $("button").on("click", function() {
+      $("#div1").slideDown("slow");
+    });
+  });
+</script> -->
+
+
+<!-- <script type="text/javascript">
+  $(function() {
+    $("#drag").draggable();
+  });
+</script>
+
+
+
+
+<style media="screen">
+  #drag {
+    width: 150px;
+    height: 60px;
+    background-color: aqua;
+  }
+</style> -->
+
+<!--
+<style media="screen">
+#drop {
+  width: 400px;
+  height: 400px;
+  float: right;
+  background-color: aquamarine;
+}
+</style>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#img1").draggable();
+    $("#drop").droppable();
+  });
+</script> -->
